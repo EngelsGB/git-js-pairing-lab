@@ -28,9 +28,9 @@ const multiplesOfThreeOrFive = () => {
 // multiplesOfThreeOrFive();
 
 // 4th function
- const untilNum = () => {
-    for (let i = 1; i <= 1; i++) {
+ const untilNum = (int) => {
+    for (let i = 1; i <= int; i++) {
         console.log(i);
     }
  }
- 
+untilNum(33);

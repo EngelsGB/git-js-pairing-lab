@@ -51,8 +51,4 @@ const add = (num1, num2) => {
    
 
 }
-console.log(add(2, 4));     //returns 6
-console.log(add(10, -5));   //returns 5
-console.log(add(3, 7.5));   //returns 10.5
-console.log(add(5, 5));    //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
-console.log(add(6, 6));     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
+console.log(add(2, 4));

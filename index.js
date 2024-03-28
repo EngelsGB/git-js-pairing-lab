@@ -65,6 +65,17 @@ const isNegative = (int) => {
 const triangleArea = (num1, num2) => {
     return (num1 * num2) / 2;
 }
-console.log(triangleArea(5, 7))    //returns 17.5
-console.log(triangleArea(6, 8))   //returns 24
+// console.log(triangleArea(5, 7))    //returns 17.5
+// console.log(triangleArea(6, 8))   //returns 24
 
+// 9th function
+const betweenTwentyAndFourty = (int) => {
+    if (int > 20 && int < 40) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// console.log(betweenTwentyAndFourty(40));
+
+// 10th function

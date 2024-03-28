@@ -1,14 +1,30 @@
 //Code your solutions in this file
-// const fiveToOneHundred = () => {
-//    for (let i = 5; i <= 100; i++) {
-//        console.log(i);
-//    }
-//}
-//fiveToOneHundred(); 
-
-2. const multiplesOfThree = () => {
-    for (let i = 0; i <= 100; i++) {
-        if(i % 3 == 0 || i % 7 == 0
-        console.log(1);
+// 1st function
+const fiveToOneHundred = () => {
+    for (let i = 5; i <= 100; i++) {
+        console.log(i);
     }
 }
+// fiveToOneHundred(); 
+
+// 2nd function
+const multiplesOfThree = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 == 0) {
+            console.log(i);
+        }
+    }
+}
+// multiplesOfThree();
+
+// 3rd function
+const multiplesOfThreeOrFive = () => {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            console.log(i);
+        }
+    }
+}
+// multiplesOfThreeOrFive();
+
+// 4th function

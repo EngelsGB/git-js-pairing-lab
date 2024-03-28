@@ -42,3 +42,7 @@ const multiply = (int1, int2) => {
 // console.log(multiply(3, 7.5));
 
 // 6th function
+const add = (num1, num2) => {
+    return num1 + num2;
+}
+console.log(add(2, 4));

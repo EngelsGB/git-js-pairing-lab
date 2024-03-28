@@ -43,12 +43,22 @@ const multiply = (int1, int2) => {
 
 // 6th function
 const add = (num1, num2) => {
-    if (num1 === num2;) {
-     return ((num1 + num2) * (3))     
+    if (num1 === num2) {
+        return ((num1 + num2) * (3))
     } else {
         return ((num1 + num2));
     }
-   
-
 }
-console.log(add(2, 4));
+// console.log(add(6, 6));
+
+// 7th function
+const isNegative = (int) => {
+    if (int < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// console.log(isNegative(Math.PI));
+
+// 8th function

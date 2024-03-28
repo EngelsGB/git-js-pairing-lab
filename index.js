@@ -62,3 +62,9 @@ const isNegative = (int) => {
 // console.log(isNegative(Math.PI));
 
 // 8th function
+const triangleArea = (num1, num2) => {
+    return (num1 * num2) / 2;
+}
+console.log(triangleArea(5, 7))    //returns 17.5
+console.log(triangleArea(6, 8))   //returns 24
+
